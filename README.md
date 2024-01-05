@@ -19,18 +19,17 @@ Este script de Python te permite obtener datos de amigos de Roblox utilizando un
 Ejecuta el script con el siguiente comando desde la terminal o línea de comandos:
 
 ```
-python script.py start <cookie>
+python main.py start "<cookie>"
 ```
 
-- Reemplaza `script.py` con el nombre de tu archivo Python.
-- `<cookie>` es tu cookie de seguridad de Roblox. Si la cookie contiene espacios, asegúrate de incluirla entre comillas.
+- `<cookie>` es tu cookie de seguridad de Roblox. Asegúrate de incluirla entre comillas.
 
 ### Ejemplo de uso:
 
-Si tu archivo se llama `my_script.py` y tu cookie es `mi_cookie_roblox_con_espacios`, el comando se vería así:
+Si tu tu cookie es `mi_cookie_roblox_con_espacios`, el comando se vería así:
 
 ```
-python my_script.py start "mi_cookie_roblox_con_espacios"
+python main.py start "mi_cookie_roblox_con_espacios"
 ```
 
 Esto ejecutará el script utilizando la cookie proporcionada y empezará a recopilar los datos de amigos de Roblox.
