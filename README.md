@@ -34,6 +34,16 @@ python main.py start "mi_cookie_roblox_con_espacios"
 
 Esto ejecutará el script utilizando la cookie proporcionada y empezará a recopilar los datos de amigos de Roblox.
 
+### Interfaz gráfica
+
+Si prefieres una experiencia "plug and play" con una interfaz sencilla, ejecuta:
+
+```
+python gui.py
+```
+
+Se abrirá una ventana donde podrás introducir la cookie de seguridad y comenzar el proceso con un botón.
+
 ### Resultados
 
 Los resultados se guardarán en dos archivos JSON dentro de la misma carpeta donde se encuentra el script:
